@@ -30,10 +30,7 @@ public class DashboardController {
     {
         return "git testing";
     }
-    @GetMapping(value="/navin")
-    public String navin(){
-        return "navin";
-    }
+
     @GetMapping("/stats")
     public DashboardStats getStats() {
         // 1. Counts
